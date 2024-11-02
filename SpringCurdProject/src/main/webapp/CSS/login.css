@@ -1,0 +1,103 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #00796b; /* Teal color */
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-links {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #004d40;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #00695c;
+}
+
+/* Login container styling */
+.login-container {
+    width: 300px; /* Width of the login form */
+    margin: 100px auto; /* Center the form on the page */
+    padding: 20px; /* Padding around the content */
+    background-color: #ffffff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    text-align: center; /* Centered text */
+}
+
+.login-container h2 {
+    margin-bottom: 20px; /* Margin below the heading */
+    color: #333333; /* Heading color */
+}
+
+/* Input fields styling */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 90%; /* Full width */
+    padding: 10px; /* Padding inside input fields */
+    margin: 10px 0; /* Margin around input fields */
+    border: 1px solid #ddd; /* Border styling for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+/* Login button styling */
+.login-button {
+    background-color: #28a745; /* Button color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    width: 100%; /* Full width */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.login-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Sign Up link */
+.login-container p {
+    margin-top: 15px; /* Margin above paragraph */
+}
+
+.login-container a {
+    color: #00796b; /* Teal color for links */
+    text-decoration: none; /* No underline */
+}
+
+.login-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

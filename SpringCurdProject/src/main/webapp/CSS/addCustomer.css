@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Navbar styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-top: 70px; /* Space for navbar */
+}
+
+nav {
+    background-color: #00796b; /* Teal color */
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav .nav-links {
+    margin-right: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #004d40;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav .nav-links a:hover {
+    background-color: #00695c;
+}
+
+/* Form styling */
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
